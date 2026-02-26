@@ -51,5 +51,3 @@ visualize_tree(game.board, depth=3, algorithm='minimax', game=game)
 - `ai_depth` in `gui.py` controls how deep the AI searches; higher values increase thinking time.
 - `adversarial_search.py` tracks global counters `MINIMAX_NODES_EXPANDED` and `AB_NODES_EXPANDED` for experiment logging.
 - The heuristic in `connect_four_game.py` (`score_position`) is used to evaluate non-terminal positions when search depth is reached.
-
-If you'd like, I can add a `requirements.txt`, or update the README with example outputs and screenshots from the GUI. What would you like next?
